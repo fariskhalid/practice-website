@@ -10,7 +10,7 @@
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -88,13 +88,19 @@ li {
 
 
 .header__container {
-    width: 100%;
     margin: 0 auto;
-    height: 100%;
-    display: flex;
     padding: 24px 18px;
-    flex-direction: row;
     max-width: 1200px;
+    display: flex;
+}
+
+label {
+    position: relative;
+}
+
+input {
+    border: lightgray;
+    padding: 15px;
 }
 
 .header__email {
