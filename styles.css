@@ -22,6 +22,11 @@
 
 img {
     width: 100%;
+    position: relative;
+}
+
+.img__customers {
+    opacity: 0.5;
 }
 
 .nav__container {
@@ -40,6 +45,12 @@ img {
 
 .logo {
     width: 55px;
+}
+
+.logo__text {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 326px;
 }
 
 img {
@@ -99,7 +110,7 @@ label {
 }
 
 input {
-    border: lightgray;
+    border: 1px solid lightgray;
     padding: 15px;
     width: 300px;
     border-radius: 100px;
@@ -121,7 +132,7 @@ input {
 .btn__style {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 10px;
     bottom: 0;
     border: none;
     color: #fff;
@@ -145,6 +156,24 @@ h2 {
     margin-bottom: 32px;
     text-align: start;
     font-weight: lighter;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgba(160,174,192,var(--tw-text-opacity));
+    margin-top: 50px;
+}
+
+h4 {
+    text-align: center;
+}
+
+P {
+    text-align: center;
 }
 
 
