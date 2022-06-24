@@ -43,6 +43,11 @@ img {
     color: #7342d6;
 }
 
+.lightgray {
+    --tw-text-opacity: 1;
+    color: rgba(36,62,99,var(--tw-text-opacity));
+}
+
 .logo {
     width: 55px;
 }
@@ -172,8 +177,18 @@ h4 {
     text-align: center;
 }
 
-P {
+h5 {
     text-align: center;
+    font-size: 60px;
+}
+
+P {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    --tw-text-opacity: 1;
+    color: rgba(124,139,161,var(--tw-text-opacity));
+    font-weight: 500;
 }
 
 
