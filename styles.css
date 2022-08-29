@@ -191,5 +191,11 @@ P {
     font-weight: 500;
 }
 
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+
 
 
