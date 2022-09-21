@@ -197,7 +197,7 @@ P {
     margin-top: 3rem;
   }
 
-  .service {
+.service {
     display: flex;
     align-items: flex-start;
     text-align: left;
